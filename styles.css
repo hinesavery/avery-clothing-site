@@ -1,0 +1,142 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.nav-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-menu li:hover {
+  color: #000;
+}
+
+/* Content */
+.center-content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 20px;
+  font-weight: 300;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.model-img {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* GIF section */
+.gif-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.fashion-gif {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Categories */
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.nav-list li:hover {
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* CTA Section */
+.cta h3 {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  padding: 12px 28px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta button:hover {
+  background: #222;
+}
